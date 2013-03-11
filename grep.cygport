@@ -1,0 +1,12 @@
+NAME="grep"
+VERSION=2.14
+RELEASE=1
+CATEGORY="Base"
+SUMMARY="Searches files for text patterns"
+DESCRIPTION="The grep command searches one or more input files for lines
+containing a match to a specified pattern. By default, grep prints the matching
+lines."
+HOMEPAGE="http://www.gnu.org/software/grep/"
+SRC_URI="mirror://gnu/grep/grep-${VERSION}.tar.xz"
+
+DIFF_EXCLUDES="test-driver"
